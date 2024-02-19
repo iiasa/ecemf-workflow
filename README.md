@@ -58,7 +58,7 @@ as they are called like this by the Job Execution Service. Details can be found
 
 <img src="./_static/open_entrance-logo.png" width="152" height="96" align="right" alt="openENTRANCE logo" />
 
-This project builds on the work in the Horizon 2020 project openENTRANCE.
+This project builds on the work in the Horizon 2020 project openENTRANCE.  
 Visit https://github.com/openENTRANCE/openentrance for more information!
 
 ## Funding acknowledgement
