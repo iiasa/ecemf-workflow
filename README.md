@@ -57,5 +57,5 @@ as they are called like this by the Job Execution Service. Details can be found
 ## Funding acknowledgement
 
 <img src="./_static/EU-logo-300x201.jpg" width="80" height="54" align="left" alt="EU logo" />
-This project has received funding from the European Union’s **Horizon 2020** research
-and innovation programme under grant agreement No. 101022622 (ECEMF).
+This project has received funding from the European Union’s <b>Horizon 2020</b> research
+and innovation programme under grant agreement No. 101022622 (<b>ECEMF</b>).
