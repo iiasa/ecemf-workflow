@@ -1,17 +1,22 @@
-# Scenario Explorer Workflow Template
+# ECEMF Scenario Processing Workflow
 
-Copyright 2022-2023 IIASA
+Copyright 2024 IIASA
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Overview
 
-This is a template for project-specific scenario processing workflows.
+<img src="./_static/ECEMF-logo.png" height="120" align="right" alt="ECEMF logo" />
 
-To use this template for a project, do the following:
-- Create a new repository from this template
-- Update the title and overview section of this Readme
-- Start adding definitions and mappings 
+ECEMF is a Horizon 2020 funded project whose aim is to establish a European forum for
+energy and climate researchers and policy makers to achieve climate neutrality.  
+Visit https://ecemf.eu for more information!
+
+This workflow repository includes the workflow for scenario processing and validation
+using the database infrastructure developed by the IIASA Scenario Services &
+Scientific Software team. Read more at https://docs.ece.iiasa.ac.at!
+
+## Using this repository
 
 ### Project nomenclature
 
@@ -27,7 +32,7 @@ define how results should be processed upon upload to a Scenario Explorer.
 This is the step-by-step guide to registering your model:
 
 1. Fork this repository
-2. Follow the instructions from the nomenclature documentation here: <https://nomenclature-iamc.readthedocs.io/en/stable/user_guide/model-registration.html>. 
+2. Follow the instructions from the nomenclature documentation to [register your model](https://nomenclature-iamc.readthedocs.io/en/stable/user_guide/model-registration.html).  
 Please make sure to follow the instructions completely, both the _Model mapping_ and the _Region definitions_ part. You'll have to end up with two files.
 3. Open a pull request into this repository. Make sure that the tests run through and correct any potential issues. If the tests are failing you can view the details by clicking on the failed test run.
 
@@ -45,3 +50,9 @@ about the **pyam** package for scenario analysis and data visualization.
 **Important**: Do not change the name of the module `workflow.py` or the function `main`
 as they are called like this by the Job Execution Service. Details can be found
 [here](https://wiki.ece.iiasa.ac.at/wiki/index.php/Scenario_Explorer/Setup#Job_Execution_Service).
+
+## Funding acknowledgement
+
+<img src="./_static/EU-logo-300x201.jpg" width="80" height="54" align="left" alt="EU logo" />
+This project has received funding from the European Union’s **Horizon 2020** research
+and innovation programme under grant agreement No. 101022622 (ECEMF).
