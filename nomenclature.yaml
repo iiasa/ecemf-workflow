@@ -6,3 +6,5 @@ definitions:
     repository: openENTRANCE
   region:
     repository: openENTRANCE
+mappings:
+    repository: openENTRANCE
