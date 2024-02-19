@@ -16,4 +16,13 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
     processor = RegionProcessor.from_directory(path=here / "mappings", dsd=dsd)
     df = process(df, dsd, processor=processor)
 
+    # assign meta indicator for scenario "work package" category
+    for model, scenario in df.index:
+        if "DIAG" in scenario:
+            df.meta.loc[(model, scenario), "Work package"] = "Diagnostic"
+        elif scenario.startswith("WP"):
+            df.meta.loc[(model, scenario), "Work package"] = (
+                "Work Package " + scenario[2:4]
+            )
+
     return df
