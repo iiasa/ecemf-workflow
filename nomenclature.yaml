@@ -1,0 +1,8 @@
+repositories:
+  openENTRANCE:
+    url: https://github.com/openENTRANCE/openentrance
+definitions:
+  variable:
+    repository: openENTRANCE
+  region:
+    repository: openENTRANCE
