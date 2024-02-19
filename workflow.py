@@ -11,8 +11,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
 
     # Run the validation and region-processing
     dsd = DataStructureDefinition(
-        here / "definitions",
-        dimensions=["scenario", "region", "variable"]
+        here / "definitions", dimensions=["scenario", "region", "variable"]
     )
     processor = RegionProcessor.from_directory(path=here / "mappings", dsd=dsd)
     df = process(df, dsd, processor=processor)
