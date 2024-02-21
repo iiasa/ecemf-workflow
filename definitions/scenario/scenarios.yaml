@@ -130,6 +130,16 @@
 - WP3_Task3.2|Infrastructures|High EV flexibility
 - WP3_Task3.2|Infrastructures|Conservative EV flexibility
 
+# ECEMF - Work package 4 scenarios considering circular economy
+- WP4 Industry|No Circular Economy in Buildings|Reference
+- WP4 Industry|No Circular Economy in Buildings|Decarbonisation
+- WP4 Industry|Recycling in Buildings|Reference
+- WP4 Industry|Recycling in Buildings|Decarbonisation
+- WP4 Industry|Demand Reduction in Buildings|Reference
+- WP4 Industry|Demand Reduction in Buildings|Decarbonisation
+- WP4 Industry|Circular Economy in Buildings|Reference
+- WP4 Industry|Circular Economy in Buildings|Decarbonisation
+
 # ECEMF - Work package 5 task 5.1 trade limitation scenarios (<= initial scenario names, deprecated)
 - WP5 Default-2C
 - WP5 Default-15C
