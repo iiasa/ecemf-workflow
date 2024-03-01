@@ -1,6 +1,7 @@
 from pathlib import Path
 import pyam
 from nomenclature import DataStructureDefinition, RegionProcessor, process
+from nomenclature.codelist import RegionCode
 
 
 here = Path(__file__).absolute().parent
@@ -28,7 +29,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
             elif len(r_split) == 2:
                 if all([_r in dsd.region for _r in r_split]):
                     # add the directional-region to the codelist (without attributes)
-                    dsd.region[r] = None
+                    dsd.region[r] = RegionCode(name=r, hierarchy="directional")
 
     # run the validation and region-processing
     df = process(df, dsd, processor=processor)
