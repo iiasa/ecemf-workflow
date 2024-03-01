@@ -18,7 +18,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
     # check if directional data exists in the scenario data, add to region codelist
     if any([r for r in df.region if ">" in r]):
         for r in df.region:
-            if r in definition.region:
+            if r in dsd.region:
                 continue
             r_split = r.split(">")
             if len(r_split) > 2:
@@ -26,9 +26,9 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
                     f"Directional data other than `origin>destination` not allowed: {r}"
                 )
             elif len(r_split) == 2:
-                if all([_r in definition.region for _r in r_split]):
+                if all([_r in dsd.region for _r in r_split]):
                     # add the directional-region to the codelist (without attributes)
-                    definition.region[r] = None
+                    dsd.region[r] = None
 
     # run the validation and region-processing
     df = process(df, dsd, processor=processor)
