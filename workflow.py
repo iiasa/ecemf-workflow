@@ -21,9 +21,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
         dimensions = dimensions + ["subannual"]
 
     # initialize the codelists and region-processing
-    dsd = DataStructureDefinition(
-        here / "definitions", dimensions=dimensions,
-    )
+    dsd = DataStructureDefinition(here / "definitions", dimensions=dimensions)
     processor = RegionProcessor.from_directory(path=here / "mappings", dsd=dsd)
 
     # check if directional data exists in the scenario data, add to region codelist
