@@ -58,7 +58,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
 
     # check that any datetime-like items in "subannual" are valid datetime and UTC+01:00
     if "subannual" in df.dimensions:
-        _datetime = [s for s in df.subannual if s not in definition.subannual]
+        _datetime = [s for s in df.subannual if s not in dsd.subannual]
 
         for d in _datetime:
             try:
