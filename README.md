@@ -21,7 +21,7 @@ Scientific Software team. Read more at https://docs.ece.iiasa.ac.at!
 
 ## Using this repository
 
-The complete project template can be downloaded here: <https://file.ece.iiasa.ac.at/ecemf/ecemf.xlsx>.
+The complete project template can be downloaded here: <https://files.ece.iiasa.ac.at/ecemf/ecemf-template.xlsx>.
 
 ### Project nomenclature
 
