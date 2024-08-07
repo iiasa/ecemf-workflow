@@ -137,19 +137,19 @@
 - WP4|Residential|Digitalization in Residential Sector|Prosumaging and Teleworking
 
 # ECEMF - Work package 4 task 4.3 scnearios
-- WP4|Residential|No Prosumaging|Reference
-- WP4|Residential|High Prosumaging|Strong Policy|no EV
-- WP4|Residential|High Prosumaging|Strong Policy|with EV
-- WP4|Residential|High Prosumaging|Weak Policy|no EV
-- WP4|Residential|High Prosumaging|Weak Policy|with EV
-- WP4|Residential|Medium Prosumaging|Strong Policy|no EV
-- WP4|Residential|Medium Prosumaging|Strong Policy|with EV
-- WP4|Residential|Medium Prosumaging|Weak Policy|no EV
-- WP4|Residential|Medium Prosumaging|Weak Policy|with EV
-- WP4|Residential|Low Prosumaging|Strong Policy|no EV
-- WP4|Residential|Low Prosumaging|Strong Policy|with EV
-- WP4|Residential|Low Prosumaging|Weak Policy|no EV
-- WP4|Residential|Low Prosumaging|Weak Policy|with EV
+- WP4 Building|Residential|No Prosumaging|Reference
+- WP4 Building|Residential|High Prosumaging|Strong Policy|no EV
+- WP4 Building|Residential|High Prosumaging|Strong Policy|with EV
+- WP4 Building|Residential|High Prosumaging|Weak Policy|no EV
+- WP4 Building|Residential|High Prosumaging|Weak Policy|with EV
+- WP4 Building|Residential|Medium Prosumaging|Strong Policy|no EV
+- WP4 Building|Residential|Medium Prosumaging|Strong Policy|with EV
+- WP4 Building|Residential|Medium Prosumaging|Weak Policy|no EV
+- WP4 Building|Residential|Medium Prosumaging|Weak Policy|with EV
+- WP4 Building|Residential|Low Prosumaging|Strong Policy|no EV
+- WP4 Building|Residential|Low Prosumaging|Strong Policy|with EV
+- WP4 Building|Residential|Low Prosumaging|Weak Policy|no EV
+- WP4 Building|Residential|Low Prosumaging|Weak Policy|with EV
 
 # ECEMF - Work package 4 scenarios considering circular economy
 - WP4 Industry|No Circular Economy in Buildings|Reference
